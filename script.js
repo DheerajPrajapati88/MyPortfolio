@@ -1,4 +1,9 @@
+window.addEventListener("load",function(){
 
+    const loader=document.querySelector(".loader");
+    loader.classList.add("preloader")
+
+})
 
 document.addEventListener('DOMContentLoaded', () => {
     smoothScroll();
@@ -48,6 +53,12 @@ function initAnimations() {
         }
     })
     const tl = gsap.timeline();
+        tl.from(".loader span",{
+        scale:100,
+        opacity:0,    
+        ease:"power2.inOut",
+        stagger:0.1,
+    })
     tl.from(".img-container, .box1, .box2", {
         scale: 0,
         opacity: 0,
