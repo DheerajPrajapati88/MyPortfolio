@@ -131,9 +131,7 @@
   .menu {
     display: block;
   }
-  .text-wrapper .text{
-    font-size: 4vw;
-  }
+
   .container {
     flex-direction: column;
   }
@@ -163,20 +161,24 @@
     height:65vw;
   }
   .text-container .name {
-    font-size: 10vw;
-    text-decoration: 5px line-through #0a080f;
+    font-size: 12vw;
+
+  }
+  .text-wrapper .text{
+    font-size: 7vw;
   }
   .and {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .container {
     padding-top: 25vw;
   }
   .text-container h6 {
-    font-size: 6vw;
+    font-size: 12vw;
   }
   .text-container h5 {
-    font-size: 7vw;
+    font-size: 12vw;
+    text-align: center;
   }
   .text-container {
     align-items: center;
