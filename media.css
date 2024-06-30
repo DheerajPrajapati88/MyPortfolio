@@ -161,11 +161,11 @@
     height:65vw;
   }
   .text-container .name {
-    font-size: 12vw;
+    font-size: 10vw;
 
   }
   .text-wrapper .text{
-    font-size: 10vw;
+    font-size: 6vw;
   }
   .and {
     font-size: 8vw;
@@ -174,10 +174,10 @@
     padding-top: 25vw;
   }
   .text-container h6 {
-    font-size: 15vw;
+    font-size: 8vw;
   }
   .text-container h5 {
-    font-size: 15vw;
+    font-size: 8vw;
     text-align: center;
   }
   .text-container {
@@ -321,20 +321,20 @@
         text-decoration: 5px line-through #0a080f;
       }
       .and {
-        font-size: 5vw;
+        font-size: 8vw;
       }
       .container {
         padding-top:35vw;
       }
       .text-container h6 {
-        font-size: 10vw;
+        font-size: 15vw;
       }
       .text-container h5 {
-        font-size: 10vw;
+        font-size: 15vw;
       }
       
       .text-wrapper .text{
-        font-size: 4vw;
+        font-size: 10vw;
       }
  
       .aboutMe .desc p span {
