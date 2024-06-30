@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body data-scroll-container>
+
+    <div class="main">
+        <div class="cursor"></div>
+        <div class="goto"><i class="ri-arrow-up-line"></i></div>
+        <div class="fixed_img"></div>
+        <div class="one" id="one" data-scroll-section>
+            <nav>
+                <div class="logo">
+                    <div class="logo-in">
+
+                        <h1 class="portfolio">Port<span>folio</span></h1>
+                        <h1 class="dheeru">Dheeru<span class="dot">.</span></h1>
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <a class="a scroll-link" data-scroll-to href="#one">Home</a>
+                    <a class="a scroll-link" data-scroll-to href="#two">About</a>
+                    <a class="a scroll-link" data-scroll-to href="#three">Skills</a>
+                    <a class="a scroll-link" data-scroll-to href="#four">Projects</a>
+                    <a class="a scroll-link" data-scroll-to href="#five">Contact</a>
+                    <a href="images/Dheeraj CV.pdf" download="Dheeraj.pdf" class="get-cv"><i class="ri-download-line"></i> Resume</a>
+                </div>
+                <div class="menu-icon">
+                    <div>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+            <div class="menu-bar">
+                <div class="menu-links">
+                    <a class="a scroll-link" data-scroll-to href="#one">Home</a>
+                    <a class="a scroll-link" data-scroll-to href="#two">About</a>
+                    <a class="a scroll-link" data-scroll-to="300" href="#three">Skills</a>
+                    <a class="a scroll-link" data-scroll-to href="#four">Projects</a>
+                    <a class="a scroll-link" data-scroll-to href="#five">Contact</a>
+                    <a href="images/Dheeraj CV.pdf" download="Dheeraj.pdf" class="get-cv"><i class="ri-download-line"></i> Resume</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="left ">
+
+                    <div class="img-container">
+                        <img src="images/My-pic.png" alt="" class="img ">
+                    </div>
+                    <div class="box1">
+                        <h4>visualize</h4>
+                        <span>
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                fill="none">
+                                <style>
+                                    @keyframes rotate {
+                                        0% {
+                                            transform: rotateZ(0)
+                                        }
+
+                                        to {
+                                            transform: rotateZ(360deg)
+                                        }
+                                    }
+                                </style>
+                                <path stroke="#0A0A30" stroke-width="1.5"
+                                    d="M10.524 4.614a2 2 0 012.952 0l.459.502a2 2 0 001.565.648l.68-.03a2 2 0 012.087 2.087l-.03.68a2 2 0 00.648 1.564l.501.46a2 2 0 010 2.95l-.502.46a2 2 0 00-.648 1.565l.03.68a2 2 0 01-2.086 2.087l-.68-.03a2 2 0 00-1.565.648l-.46.501a2 2 0 01-2.95 0l-.46-.502a2 2 0 00-1.565-.648l-.68.03a2 2 0 01-2.087-2.086l.03-.68a2 2 0 00-.647-1.565l-.502-.46a2 2 0 010-2.95l.502-.46A2 2 0 005.764 8.5l-.03-.68A2 2 0 017.82 5.734l.68.03a2 2 0 001.564-.647l.46-.502z"
+                                    style="animation:rotate 2s linear both infinite;transform-origin:center center" />
+                                <path stroke="#265BFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M13.873 10.004l-3.746 3.992" />
+                                <circle cx="10.127" cy="10.004" r="1.074" fill="#265BFF" />
+                                <circle cx="13.873" cy="13.995" r="1.074" fill="#265BFF" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="box2">
+                        <h4>create</h4>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <style>
+                                    .cut-sc {
+                                        animation: cut-sc 1s cubic-bezier(1, -0.28, 0.01, 1.13) infinite alternate-reverse both;
+                                        transform-origin: center center;
+
+                                    }
+
+                                    @keyframes cut-sc {
+                                        0% {
+                                            transform: rotate(0);
+                                        }
+
+                                        100% {
+                                            transform: rotate(-20deg);
+                                        }
+                                    }
+
+                                    .cut-sc-2 {
+                                        animation: cut-sc-2 1s cubic-bezier(1, -0.28, 0.01, 1.13) infinite alternate-reverse both;
+                                        transform-origin: center center;
+
+                                    }
+
+                                    @keyframes cut-sc-2 {
+                                        0% {
+                                            transform: rotate(0);
+                                        }
+
+                                        100% {
+                                            transform: rotate(20deg);
+                                        }
+                                    }
+                                </style>
+                                <g class="cut-sc">
+                                    <path stroke="#0A0A30" stroke-linecap="round" stroke-width="1.5"
+                                        d="M10.025 10.025l7.9 7.9" />
+                                    <circle cx="8.05" cy="8.05" r="2.043" stroke="#265BFF" stroke-width="1.5"
+                                        transform="rotate(45 8.05 8.05)" />
+                                </g>
+                                <g class="cut-sc-2">
+                                    <path stroke="#0A0A30" stroke-linecap="round" stroke-width="1.5"
+                                        d="M10.025 13.975l7.9-7.9" />
+                                    <circle r="2.043" stroke="#265BFF" stroke-width="1.5"
+                                        transform="scale(1 -1) rotate(45 23.279 1.742)" />
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="text-container">
+
+                        <h6>
+                            <span class="home-anim">
+
+                                Hey , I'm
+                            </span>
+                        </h6>
+                        <h1>
+
+                            <span class="name home-anim">Dheeraj Prajapati</span>
+                        </h1>
+                        <h5>
+                            <span class="home-anim">
+
+                                A Web
+                            </span>
+                            <span class="text-wrapper ">
+
+                                <p class="text" data-splitting>
+
+                                    Developer<span class="and"> X </span>Designer.
+                                </p>
+                            </span>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="two" id="two" data-scroll-section >
+            <div class="moving_text">
+                <div class="con">
+                    <h1>planning</h1>
+                    <div class="circle"></div>
+
+                    <h1>designing</h1>
+                    <div class="circle"></div>
+
+                    <h1>development</h1>
+                    <div class="circle"></div>
+                </div>
+                <div class="con">
+
+                    <h1>planning</h1>
+                    <div class="circle"></div>
+
+                    <h1>designing</h1>
+                    <div class="circle"></div>
+
+                    <h1>development</h1>
+                    <div class="circle"></div>
+
+                </div>
+            </div>
+            <div class="aboutMe">
+                <h1><span>About me</span></h1>
+                <div class="desc">
+
+                    <p><span> Hello, I'm Dheeraj Prajapati, a BCA grdaduate skilled in </span></p>
+                    <p><span> Frontend Development and web designig with a strong </span></p>
+                    <p><span> foundation in HTML, CSS, JavaScript ,react js,tailwind</span></p>
+                    <p><span> CSS ,gsap and Figma. I am committed to creating</span></p>
+                    <p><span> visually appealing and user-friendly web experiences.</span></p>
+                    <p><span> As I embark on this exciting journey, I am eager to </span></p>
+                    <p><span> collaborate, learn, and contribute to innovative</span></p>
+                    <p><span> projects. Let's connect and explore the world of</span></p>
+                    <p>
+                        <span>
+
+                            frontend dev together!
+                        </span>
+                    </p>
+                    <div class="p-anim"></div>
+                </div>
+            </div>
+        </div>
+        <div class="three" id="three" data-scroll-section>            
+
+            <div class="skills"><div class="moving_text">
+                <div class="con">
+                    <h1>planning</h1>
+                    <div class="circle"></div>
+    
+                    <h1>designing</h1>
+                    <div class="circle"></div>
+    
+                    <h1>development</h1>
+                    <div class="circle"></div>
+                </div>
+                <div class="con">
+    
+                    <h1>planning</h1>
+                    <div class="circle"></div>
+    
+                    <h1>designing</h1>
+                    <div class="circle"></div>
+    
+                    <h1>development</h1>
+                    <div class="circle"></div>
+    
+                </div>
+            </div>
+
+                <h1 class="skills-h1"><span>Skills</span></h1>
+                <div class="skills-container">
+                    <div class="skills-left">
+                        <div class="designing">
+                            <span>Designing</span>
+                            <div class="designing-icon">
+                                <img src="images/canva.webp" alt="">
+                                <img src="images/figma.png" alt="">
+                                <img src="images/illus.png" alt="">
+                                <img src="images/ps-min.webp" alt="">
+
+                            </div>
+                        </div>
+                        <div class="development">
+                            <span>Development</span>
+                            <div class="development-icon">
+                                <img src="images/html-min.webp" alt="">
+                                <img src="images/css-min.webp" alt="">
+                                <img src="images/js-min.webp" alt="">
+                                <img src="images/gsap-min.webp" alt="">
+                                <img src="images/react.png" alt="">
+                                <img src="images/node js.png" alt="">
+                                <img src="images/mongodb-min.webp" alt="">
+                                <img src="images/github.png" alt="">
+                                <img src="images/firebase.webp" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="skills-right">
+                        <div class="skills-right-container">
+                            <div class="marquee_inner">
+                                <div class="marquee_part">
+                                    <img src="images/web-temp1.jpg" alt="">
+
+                                </div>
+                                <div class="marquee_part">
+                                    <img src="images/web-temp2.webp" alt="">
+
+                                </div>
+                                <div class="marquee_part">
+                                    <img src="images/web-temp3.jpg" alt="">
+
+                                </div>
+                                <div class="marquee_part">
+                                    <img src="images/web-temp4.webp" alt="">
+
+                                </div>
+                                <div class="marquee_part">
+                                    <img src="images/web-temp5.webp" alt="">
+
+                                </div>
+                            </div>
+                            <div class="marquee_inner">
+                                <div class="marquee_part2">
+                                    <img src="images/web-temp1.jpg" alt="">
+
+                                </div>
+                                <div class="marquee_part2">
+                                    <img src="images/web-temp2.webp" alt="">
+
+
+                                </div>
+                                <div class="marquee_part2">
+                                    <img src="images/web-temp3.jpg" alt="">
+
+                                </div>
+                                <div class="marquee_part2">
+                                    <img src="images/web-temp4.webp" alt="">
+
+                                </div>
+                                <div class="marquee_part2">
+                                    <img src="images/web-temp5.webp" alt="">
+
+                                </div>
+                            </div>
+                            <div class="marquee_inner">
+                                <div class="marquee_part">
+                                    <img src="images/web-temp1.jpg" alt="">
+
+                                </div>
+                                <div class="marquee_part">
+                                    <img src="images/web-temp2.webp" alt="">
+
+                                </div>
+                                <div class="marquee_part">
+                                    <img src="images/web-temp3.jpg" alt="">
+
+                                </div>
+                                <div class="marquee_part">
+                                    <img src="images/web-temp4.webp" alt="">
+
+                                </div>
+                                <div class="marquee_part">
+                                    <img src="images/web-temp5.webp" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="four" id="four" data-scroll-section>
+            <div class="moving_text">
+                <div class="con">
+                    <h1>planning</h1>
+                    <div class="circle"></div>
+
+                    <h1>designing</h1>
+                    <div class="circle"></div>
+
+                    <h1>development</h1>
+                    <div class="circle"></div>
+                </div>
+                <div class="con">
+
+                    <h1>planning</h1>
+                    <div class="circle"></div>
+
+                    <h1>designing</h1>
+                    <div class="circle"></div>
+
+                    <h1>development</h1>
+                    <div class="circle"></div>
+
+                </div>
+            </div>
+            <h1 class="projects-h1"><span>Projects</span></h1>
+            <div class="elm_container">
+                <div class="elm" id="img1" data_img="images/sunduo.png">
+                    <div class="overlay"></div>
+                    <h2>Sundown Studio</h2>
+                    <div class="elm_right">
+                        <a href="https://dheerajprajapati88.github.io/Sundown/" target="_blank">demo</a>
+                        <a href="https://github.com/DheerajPrajapati88/Sundown" target="_blank">code repo </a>
+                    </div>
+                </div>
+                <div class="elm" data_img="images/fanta.png">
+                    <div class="overlay"></div>
+                    <h2>Fanta Website</h2>
+                    <div class="elm_right">
+                        <a href="https://dheerajprajapati88.github.io/Fanta/" target="_blank">demo</a>
+                        <a href="https://github.com/DheerajPrajapati88/Fanta" target="_blank">code repo </a>
+                    </div>
+                </div>
+                <div class="elm" data_img="images/cafe.png">
+                    <div class="overlay"></div>
+                    <h2>Cafeteria website</h2>
+                    <div class="elm_right">
+                        <a href="https://dheerajprajapati88.github.io/Cafeteria/" target="_blank">demo</a>
+                        <a href="https://github.com/DheerajPrajapati88/Cafeteria" target="_blank">code repo </a>
+                    </div>
+                </div>
+                <div class="elm" data_img="images/pottery.png">
+                    <div class="overlay"></div>
+                    <h2>Pottery Hub</h2>
+                    <div class="elm_right">
+                        <a href="https://dheerajprajapati88.github.io/PotteryHub/" target="_blank">demo</a>
+                        <a href="https://github.com/DheerajPrajapati88/PotteryHub" target="_blank">code repo </a>
+                    </div>
+                </div>
+                <div class="elm" data_img="images/rejouice.png">
+                    <div class="overlay"></div>
+                    <h2>Rejouice</h2>
+                    <div class="elm_right">
+                        <a href="https://dheerajprajapati88.github.io/rejouice/" target="_blank">demo</a>
+                        <a href="https://github.com/DheerajPrajapati88/rejouice" target="_blank">code repo </a>
+                    </div>
+                </div>
+                <div class="elm" data_img="images/more.png">
+                    <div class="overlay"></div>
+                    <h2>View more projects</h2>
+                    <div class="elm_right">
+                        <a href="https://github.com/DheerajPrajapati88?tab=repositories">visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="five" id="five" data-scroll-section>
+            <div class="moving_text">
+                <div class="con">
+                    <h1>planning</h1>
+                    <div class="circle"></div>
+
+                    <h1>designing</h1>
+                    <div class="circle"></div>
+
+                    <h1>development</h1>
+                    <div class="circle"></div>
+                </div>
+                <div class="con">
+
+                    <h1>planning</h1>
+                    <div class="circle"></div>
+
+                    <h1>designing</h1>
+                    <div class="circle"></div>
+
+                    <h1>development</h1>
+                    <div class="circle"></div>
+
+                </div>
+            </div>
+            <h1 class="contact"><span>Contact</span></h1>
+            <div class="contact-container">
+
+                <div class="contact-info footer-anim">
+
+                    <h2>let's work togather<img src="images/icons8-arrow-64.png" alt="" class="mail-gif"></h2>
+                    <a href="mailto:dheerajp8840@gmail.com" target="_blank"><span>Email</span></a>
+                </div>
+                <div class="contact-info social-info">
+
+                    <h2><img src="images/icons8-arrow-64.png" alt="" class="mail-gif">Connect on social</h2>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_dheeru_p/" target="_blank">
+                            <span>instagram</span></a>
+                        <a href="https://www.linkedin.com/in/dheeraj-prajapati-6123b3247/" target="_blank">
+                            <span>linkedin</span></a>
+                        <a href="https://github.com/DheerajPrajapati88" target="_blank">
+                            <span>github</span></a>
+                        <a href="https://x.com/Dheeraj91433418">
+                            <span>X</span></a>
+                    </div>
+
+                </div>
+            </div>
+            <footer>
+                <p>Designed by Dheeru &copy;</p>
+            </footer>
+        </div>
+    </div>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>Splitting();</script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
