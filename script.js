@@ -96,7 +96,7 @@ function initAnimations() {
             rotateX: 45,
             stagger: 0.02
         }, "<1");
-    }, 2000);
+    }, 3000);
 
     gsap.to(".aboutMe .desc p span, .aboutMe h1 span", {
         opacity: 1,
