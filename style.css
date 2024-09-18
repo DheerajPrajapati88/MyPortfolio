@@ -361,8 +361,8 @@ background-color: #fff;
   /* font-style: italic; */
 }
 .and{
-    font-size: 2vw;
-    color:var(--dark-p);
+    font-size: 4vw;
+    color:#fff;
     font-weight: 400;
     text-transform: lowercase;
 }
