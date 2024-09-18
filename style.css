@@ -360,12 +360,7 @@ background-color: #fff;
   display: none;
   /* font-style: italic; */
 }
-.and{
-    font-size: 4vw;
-    color:#fff;
-    font-weight: 400;
-    text-transform: lowercase;
-}
+
 .home-anim{
     transform: translateY(100%);
     display: inline-block;
